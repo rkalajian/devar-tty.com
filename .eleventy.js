@@ -5,6 +5,7 @@ const watchtargets = require('./src/config/watchtargets');
 const plugins = require('./src/config/plugins');
 const shortcodes = require('./src/config/shortcodes');
 const templateLanguages = require('./src/config/templateLanguages');
+const moment = require('moment');
 const fs = require("fs");
 
 /**
@@ -119,6 +120,16 @@ module.exports = function (eleventyConfig) {
    */
   eleventyConfig.setQuietMode(true);
 
+  /** 
+   * Pretty dates 
+   */
+   eleventyConfig.addFilter('dateIso', date => {
+    return moment(date).toISOString();
+  });
+   eleventyConfig.addFilter('dateReadable', date => {
+    return moment(date).utc().format('LL'); // E.g. May 31, 2019
+  });
+  
   /**
    * Return the config to Eleventy
    */
