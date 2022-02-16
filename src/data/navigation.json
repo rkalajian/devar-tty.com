@@ -14,6 +14,16 @@
       "text": "otHELLo: EXAULT/SIN",
       "url": "/othello-exault-sin",
       "external": false
+    },
+    {
+      "text": "Discord",
+      "url": "https://discord.com/invite/PRjtw9B",
+      "external": true
+    },
+    {
+      "text": "Ko-fi",
+      "url": "https://ko-fi.com/devartty",
+      "external": true
     }
   ]
 }
