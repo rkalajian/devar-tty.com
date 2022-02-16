@@ -13,8 +13,16 @@ body {
   font-family: var(--font-family-sans-serif);
 }
 
+h1, h2, h3 {
+  margin-bottom: 1rem;
+}
+
 a {
   color: var(--color-primary);
+}
+
+p {
+  margin-bottom: 1rem;
 }
 
 #main {
@@ -46,4 +54,49 @@ hr {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+/* Tables */
+
+table {
+  width:100%;
+}
+
+table {
+  border: 1px solid #ccc;
+  margin-bottom: 32px;
+  text-align: left;
+ }
+
+th {
+  font-family: 'Arvo', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+  padding: 10px;
+  background: #232323;
+  color: #FDFEFB;
+ }
+
+td {
+  padding: 10px;
+	background: #ccc;
+ }
+
+ /* Posts */
+
+ #posts {
+   list-style: none;
+
+   li {
+     margin-bottom: 1rem;
+   }
+ 
+  .post-title {
+    font-weight: 600;
+  }
+
+  .post-category {
+      border: 1px dotted grey;
+      padding: 0.2rem;
+  }
 }
