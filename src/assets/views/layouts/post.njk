@@ -1,0 +1,9 @@
+--- 
+layout: base.njk 
+---
+<div id="post">
+    <h2>{{ title }}</h2>
+    Posted in <strong>{{ category }}</strong> on <em>{{ date | dateReadable }}</em>
+    <img src="{{ featuredImage | url }}" alt="{{ featuredImage }}"></img>
+    <p>{{ content | safe }}</p>
+</div>
