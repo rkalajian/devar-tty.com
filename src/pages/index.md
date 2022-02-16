@@ -2,6 +2,8 @@
 permalink: /
 title: Devar-TTY
 ---
+<div id="home">
+
 # Devar-TTY
 
 Media personality Rob “Devar-TTY” Kalajian has been a staple in the board game world for many years. Dev now focuses mostly on video games and TTRPGs. A self-proclaimed geek, Dev loves all things toys and games and even helps raise his four kids in his spare time.
@@ -19,3 +21,10 @@ This site, along with my [Discord channel](https://discord.gg/PRjtw9B) and socia
 *Supporting inclusivity in gaming*
 
 [You Are Welcome At My Table](https://yamamt.threadless.com), or #youarewelcomeatmytable, is a brand focused on inclusivity in gaming, both tabletop and digital. Distributed print-on-demand by Threadless, all profits currently go directly to Black Lives Matter.
+# What's Dev Playing?
+
+| Recent | Current |
+|----|-----|
+| <img src="/assets/images/playing/metroiddread.jpg" width="200" alt="Metroid Dread"> | <img src="/assets/images/playing/pokemonsnap.jpg" width="200" alt="Pokemon Snap"><br/><img src="/assets/images/playing/fortnite.jpg" width="200" alt="Fortnite"><br/><img src="/assets/images/playing/fantasylifeonline.jpg" width="200" alt="Fantasy Life Online">|
+
+</div>
