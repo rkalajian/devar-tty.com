@@ -1,17 +1,12 @@
 {
   "items": [
     {
-      "text": "Home",
-      "url": "/",
-      "external": false
-    },
-    {
       "text": "Posts",
       "url": "/posts",
       "external": false
     },
     {
-      "text": "otHELLo: EXAULT/SIN",
+      "text": "otHELLo",
       "url": "/othello-exault-sin",
       "external": false
     },

@@ -1,6 +1,5 @@
 <nav id="navigation" role="navigation">
-  <span class="navigation-label">Navigation:</span>
-
+  <ul>
   {% for item in navigation.items %}
 
     {# Set attributes and classes to blank to start #}
@@ -40,4 +39,5 @@
     {% include "partials/nav-item.njk" %}
 
   {% endfor %}
+  </li>
 </nav>

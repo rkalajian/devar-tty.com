@@ -1,40 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <script src="/assets/scripts/scalefix.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <!--[if lt IE 9]>
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+          <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-23GBCS355Z"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    <title>{{ title }}</title>
-
-    <link rel="stylesheet" href="{{ '/assets/styles/styles.css' | url }}" />
-    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
-
-    {% metagen
-        title=title or metadata.title
-    %}
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-23GBCS355Z"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-23GBCS355Z');
-  </script>
+      gtag('config', 'G-23GBCS355Z');
+    </script>
   </head>
   <body>
-    <a class="visually-hidden" href="#main">Skip to content</a>
+    <div class="wrapper">
+      <header>
+        <a href="/"><img alt="Devar-TTY" style="width: 90%; border: 0; text-align: center;margin: 0 auto;" src="{{ '/assets/images/logo.png'}}"/></a>
 
-    {# Site header with navigation #}
-    <header>
-      {% include "navigation.njk" %}
-    </header>
+        {% include "navigation.njk" %}
+        {% include "playing.njk" %}
+      </header>
 
-    {# Main content #}
-    <main id="main" tabindex="-1">
-    {{ content | safe }}
-    </main>
+        <section>
+      {{ content | safe }}
+       </section>
 
-    <script src="/assets/scripts/main.js" defer></script>
+      <footer>
+        <p><small>&copy; 2022 Rob Kalajian</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    {% if site.google_analytics %}
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
   </body>
 </html>
