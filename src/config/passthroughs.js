@@ -14,5 +14,11 @@ module.exports = {
     let config = { 'src/assets/fonts': 'assets/fonts' }
 
     return config;
+  },
+
+  pdf: function () {
+    let config = { 'src/assets/pdf': 'assets/pdf' }
+
+    return config;
   }
 }
