@@ -1,16 +1,20 @@
-<ul id="posts">
-    {% for post in postslist %}
-        <li>
-            <span class="post-title">
-                <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-            </span>
-            <span class="post-category">
-                {{ post.data.category }}
-            </span>
-            <br/>
-            <span class="post-description">
-                {{ post.data.description }}
-            </span>
-        </li>
-    {% endfor %}
-</ul>
+<div id="postwrapper">
+    <h1>Posts</h1>
+    <ul id="posts">
+        {% for post in postslist %}
+            <li>
+                <span class="post-title">
+                    <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+                </span>
+                in 
+                <span class="post-category">
+                    {{ post.data.category }}
+                </span>
+                <br/>
+                <span class="post-description">
+                    {{ post.data.description }}
+                </span>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
