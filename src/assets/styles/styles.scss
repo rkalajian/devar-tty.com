@@ -370,13 +370,17 @@ section {
 /* Posts */
 #postwrapper {
   #posts {
-    .post-title {
-      a {
-        font-weight: 600;
+
+    li {
+      margin-bottom: .5rem;
+      .post-title {
+        a {
+          font-weight: 600;
+        }
       }
-    }
-    .post-category {
-      font-style: italic;
+      .post-category {
+        font-style: italic;
+      }
     }
   }
 }
