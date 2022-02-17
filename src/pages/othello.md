@@ -3,6 +3,7 @@ title: Othello EXAULT/SIN | Devar-TTY
 permalink: /othello-exault-sin/ 
 ---
 <div id="single-page">
+
 # otHELLo EXAULT/SIN Open Beta Test
 
 <img src="/assets/images/OTHELLO-EXAULT-SIN-Beta/cover-square.jpg" alt="otHELLo Cover" />
