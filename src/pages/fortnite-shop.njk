@@ -8,10 +8,10 @@ permalink: /fortnite-shop/
 <h2>Featured</h2>
 {% for entry in fortnite.featuredData %} 
     {% if entry.bundle %}
-        <img src='{{entry.bundle.image}}' width="150"/>
+        <img src='{{entry.bundle.image}}' width="150" alt="{{entry.bundle.name}}"/>
     {% else %}
         {% for item in entry.items %}
-            <img class="{{ item.rarity.value }}"" src="{{ item.images.smallIcon }}" width="150"/>
+            <img class="{{ item.rarity.value }}"" src="{{ item.images.smallIcon }}" width="150" alt="{{ item.name }}" />
         {% endfor %}
     {% endif %}
 {% endfor %}
@@ -21,7 +21,7 @@ permalink: /fortnite-shop/
         <img src='{{entry.bundle.image}}' width="150"/>
     {% else %}
         {% for item in entry.items %}
-            <img class="{{ item.rarity.value }}" src="{{ item.images.smallIcon }}" width="150"/>
+            <img class="{{ item.rarity.value }}" src="{{ item.images.smallIcon }}" alt="{{ item.name }}" width="150"/>
         {% endfor %}
     {% endif %}
 {% endfor %}
