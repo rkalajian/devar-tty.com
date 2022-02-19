@@ -402,6 +402,31 @@ footer {
 	padding-left: 50px;
 }
 
+/* Fornite Rarity */
+
+.common {
+  background-color: grey;
+}
+
+.uncommon {
+  background-color: green;
+}
+
+.rare {
+  background-color: blue;
+}
+
+.epic {
+  background-color: purple;
+}
+
+.legendary {
+  background-color: orange;
+}
+
+.icon {
+  background-color: lightblue;
+}
 
 
 @media print, screen and (max-width: 960px) {

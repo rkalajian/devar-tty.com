@@ -6,11 +6,13 @@
     {% set relAttribute = '' %}
     {% set currentAttribute = '' %}
     {% set itemUrl = item.url %}
+
     {% if item.external %}
       {% set target = '_blank' %}
     {% else %}
       {% set target = '' %}
     {% endif %}
+    
     {% set active = '' %}
 
     {# Set Attributes #}

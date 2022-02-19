@@ -1,0 +1,31 @@
+--- 
+title: Fortnite Daily Shop | Devar-TTY
+permalink: /fortnite-shop/ 
+---
+
+<div id="postwrapper">
+<h1>Current Fortnite Item Shop</h1>
+<h2>Featured</h2>
+{% for entry in fortnite.featuredData %} 
+    {% if entry.bundle %}
+        <img src='{{entry.bundle.image}}' width="150"/>
+    {% else %}
+        {% for item in entry.items %}
+            <img class="{{ item.rarity.value }}"" src="{{ item.images.smallIcon }}" width="150"/>
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+<h2>Daily</h2>
+{% for entry in fortnite.dailyData %} 
+    {% if entry.bundle %}
+        <img src='{{entry.bundle.image}}' width="150"/>
+    {% else %}
+        {% for item in entry.items %}
+            <img class="{{ item.rarity.value }}" src="{{ item.images.smallIcon }}" width="150"/>
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+
+
+
+</div>
