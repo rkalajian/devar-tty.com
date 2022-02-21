@@ -5,6 +5,7 @@ permalink: /fortnite-shop/
 
 <div id="postwrapper">
 <h1>Current Fortnite Item Shop</h1>
+<strong><em>Updated: {{ fortnite.date | dateReadable}}</em></strong> at 7 p.m. EST.
 <h2>Featured</h2>
 {% for entry in fortnite.featuredData %} 
     {% if entry.bundle %}

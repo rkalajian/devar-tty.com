@@ -28,6 +28,7 @@ async function getAllItems() {
   const request = await requestPosts();
   console.log(request);
 
+  fndata.date = request.data.data.date;
   fndata.dailyData = request.data.data.daily.entries;
   fndata.featuredData = request.data.data.featured.entries;
 
