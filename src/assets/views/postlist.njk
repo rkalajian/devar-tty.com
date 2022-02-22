@@ -10,7 +10,7 @@
                 <span class="post-category">
                     {% for tag in post.data.tags %}
                         {% if tag != "posts"%}
-                            <a class="tag" href="/tag/{{ tag }}">{{tag}}</a>
+                            <a class="tag" href="/tags/{{ tag }}">{{tag}}</a>
                         {% endif %}
                     {% endfor %}
                 </span>
