@@ -3,7 +3,9 @@ layout: post.njk
 title: About OTHELLO EXAULT/SIN
 description: A little bit about the narrative TTRPG system I've been working on.
 date: 2021-10-26
-category: sin-system
+tags: 
+- sin-system
+- othello
 featuredImage: 
 ---
 ## The Exaulted

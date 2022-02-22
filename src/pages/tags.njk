@@ -1,18 +1,26 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+permalink: /tags/{{ tag }}/
+---
+
+
+{% set taglist = collections[ tag ] %}
+
+
 <div id="postwrapper">
-    <h1>Posts</h1>
+    <h1>Tagged “{{ tag }}”</h1>
     <ul id="posts">
-        {% for post in postslist  | reverse %}
+        {% for post in taglist  | reverse %}
             <li>
                 <span class="post-title">
                     <a href="{{ post.url | url }}">{{ post.data.title }}</a>
                 </span>
                 in 
                 <span class="post-category">
-                    {% for tag in post.data.tags %}
-                        {% if tag != "posts"%}
-                            <a class="tag" href="/tag/{{ tag }}">{{tag}}</a>
-                        {% endif %}
-                    {% endfor %}
+                    {{ post.data.tags }}
                 </span>
                 on {{ post.data.date | dateReadable}}
                 <br/>

@@ -378,8 +378,10 @@ section {
           font-weight: 600;
         }
       }
-      .post-category {
+      .tag {
         font-style: italic;
+        border: 1px dashed;
+        padding: .25rem;
       }
     }
   }

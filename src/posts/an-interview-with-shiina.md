@@ -3,7 +3,9 @@ layout: post.njk
 title: An Interview With Shiina, Fortnite Data Miner
 description: The following interview occuring over Discord on December 7, 2021
 date: 2022-01-03
-category: fortnite
+tags: 
+- fortnite
+- interview
 featuredImage:
 ---
 

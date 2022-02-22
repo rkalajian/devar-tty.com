@@ -3,7 +3,7 @@ layout: post.njk
 title: The Scariest Games to Play This Halloween
 description: It’s that creepy and kooky time of year where black cats roam, and skeletons reside inside every person walking the planet. It’s a time for witches brew, candy, and BLOOD-CURDLING HORROR. Why not enjoy some of that terror in the tabletop games you play? Here’s a list of five of the most horrifying games to ever roll off a manufacturing line.
 date: 2021-10-19
-category: tabletop
+tags: tabletop
 featuredImage: 
 ---
 *I originally posted this article on [A Pawn's Perspective](https://web.archive.org/web/20201201000000*/https://pawnsperspective.com/the-scariest-games-to-play-this-halloween/) on October 29, 2020*

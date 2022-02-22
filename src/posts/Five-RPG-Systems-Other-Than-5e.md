@@ -3,7 +3,7 @@ layout: post.njk
 title: Five RPG Systems Other Than 5e
 description: Dungeons & Dragons is the most widely played tabletop RPG globally, and part of that has to do with how approachable the 5th Edition rules are. I currently run five different 5e games as I’m both a huge fan of the game and it’s a system that most new players have at least heard about. The core rulebooks are easy to find online and in almost any game store, and sets of polyhedral dice can even be purchased in stores like Walmart and Target now.
 date: 2021-12-21
-category: ttrpg
+tags: ttrpg
 featuredImage: /assets/images/five-rpg-systems-other-than-5e/header.jpg
 ---
 Dungeons & Dragons is the most widely played tabletop RPG globally, and part of that has to do with how approachable the [5th Edition](/posts/How-To-Play-DD-For-Free/) rules are. I currently run five different 5e games as I’m both a huge fan of the game and it’s a system that most new players have at least heard about. The core rulebooks are easy to find online and in almost any game store, and sets of polyhedral dice can even be purchased in stores like Walmart and Target now.
