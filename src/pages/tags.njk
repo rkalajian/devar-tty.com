@@ -20,7 +20,11 @@ permalink: /tags/{{ tag }}/
                 </span>
                 in 
                 <span class="post-category">
-                    {{ post.data.tags }}
+                    {% for tag in post.data.tags %}
+                        {% if tag != "posts"%}
+                            <a class="tag" href="/tags/{{ tag }}">{{tag}}</a>
+                        {% endif %}
+                    {% endfor %}
                 </span>
                 on {{ post.data.date | dateReadable}}
                 <br/>
