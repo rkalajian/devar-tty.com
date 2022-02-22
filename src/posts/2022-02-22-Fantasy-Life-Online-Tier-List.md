@@ -2,7 +2,7 @@
 layout: post.njk
 title: Fantasy Life Online Tier List
 description: The best of the best in FLO
-date: 2022-02-18
+date: 2022-02-22
 category: fantasy-life-online
 featuredImage: /assets/images/fantasy-life-online-tier-list/fantasylifetier.png
 ---
@@ -10,13 +10,13 @@ featuredImage: /assets/images/fantasy-life-online-tier-list/fantasylifetier.png
 Fantasy Life Online has been out for a few months now, with several new 5-Star characters joining the roster at an accelerated rate compared to the Japanese run of the game. The following tier list only looks at 5-Star characters, as there is really no need to compare characters that are 4-Star or lower.
 
 ## Fantasy Life Online Character Tier List
-***Updated February 18, 2022: Added Luby to S-Tier***
+***Updated February 22, 2022: Added Olianna to A-Tier***
 
 | Tier | Characters                                           |
 |------|------------------------------------------------------|
 | S+   | Hawke, Haku, Lucio                                   |
 | S    | Olivia, Amane, Slone, Teruha, Jake, Laura, Luby      |
-| A    | Bray, Grantz, Glen, Snow                             |
+| A    | Bray, Grantz, Glen, Snow, Olianna                    |
 | B    | Belhart, Kennedy, Klaus, Aqua                        |
 | C    | Josette, Sophie, Cliff, Kiba, Kirkner, Demiel, Amane |
 
