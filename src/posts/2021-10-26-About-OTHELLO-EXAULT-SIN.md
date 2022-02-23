@@ -6,6 +6,7 @@ date: 2021-10-26
 tags: 
 - sin-system
 - othello
+- ttrpg
 featuredImage: 
 ---
 ## The Exaulted
