@@ -1,6 +1,10 @@
 --- 
 title: Posts | Devar-TTY
-permalink: /posts/ 
+pagination:
+  data: collections.posts
+  size: 5
+  alias: posts
+permalink: /posts/page-{{ pagination.pageNumber }}/index.html
 ---
-{% set postslist = collections.posts %}
+{% set postslist = posts %}
 {% include "postlist.njk" %}
