@@ -1,7 +1,7 @@
 ---
 pagination:
   data: collections
-  size: 1
+  size: 5
   alias: tag
 permalink: /tags/{{ tag }}/
 ---
@@ -34,4 +34,13 @@ permalink: /tags/{{ tag }}/
             </li>
         {% endfor %}
     </ul>
+    {% if pagination.href.previous %}
+        <a href="{{pagination.href.previous}}"><< Previous Page</a>
+    {% endif %}
+    {% if pagination.href.previous and pagination.href.next %}
+    &nbsp;&mdash;&nbsp;
+    {% endif %}
+    {% if pagination.href.next %}
+        <a href="{{pagination.href.next}}">Next Page >></a>
+    {% endif %}
 </div>
