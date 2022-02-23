@@ -3,7 +3,11 @@ layout: base.njk
 ---
 <div id="post">
     <h2>{{ title }}</h2>
-    Posted in <strong>{{ category }}</strong> on <em>{{ date | dateReadable }}</em>
+    Posted in <strong> {% for tag in tags %}
+                        {% if tag != "posts"%}
+                            <a class="tag" href="/tags/{{ tag }}">{{tag}}</a>
+                        {% endif %}
+                    {% endfor %}</strong> on <em>{{ date | dateReadable }}</em>
     {% if featuredImage %}<img src="{{ featuredImage | url }}" alt="{{ featuredImage }}"></img> {% endif %}
     <p>{{ content | safe }}</p>
 </div>
