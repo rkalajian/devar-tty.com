@@ -1,7 +1,7 @@
 <div id="postwrapper">
     <h1>Posts</h1>
     <ul id="posts">
-        {% for post in postslist  | reverse %}
+        {% for post in postslist %}
             <li>
                 <span class="post-title">
                     <a href="{{ post.url | url }}">{{ post.data.title }}</a>

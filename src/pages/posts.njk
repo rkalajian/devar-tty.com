@@ -2,8 +2,9 @@
 title: Posts | Devar-TTY
 pagination:
   data: collections.posts
-  size: 5
+  size: 10
   alias: posts
+  reverse: true
 permalink: /posts/page-{{ pagination.pageNumber }}/index.html
 ---
 {% set postslist = posts %}
