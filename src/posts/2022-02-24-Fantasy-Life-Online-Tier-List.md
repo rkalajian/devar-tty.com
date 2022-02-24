@@ -7,7 +7,7 @@ tags: fantasy-life-online
 featuredImage: /assets/images/fantasy-life-online-tier-list/fantasylifetier.png
 ---
 
-Fantasy Life Online has been out for a few months now, with several new 5-Star characters joining the roster at an accelerated rate compared to the Japanese run of the game. The following tier list only looks at 5-Star characters, as there is really no need to compare characters that are 4-Star or lower.
+Fantasy Life Online has been out for a few months now, with several new 5-Star characters joining the roster at an accelerated rate compared to the Japanese run of the game. The following tier lists only look at 5-Star characters and weapons, as there is really no need to compare any that are 4-Star or lower.
 
 ## Fantasy Life Online Character Tier List
 ***Updated February 22, 2022: Added Olianna to A-Tier***
