@@ -431,6 +431,25 @@ footer {
   background-color: lightblue;
 }
 
+/* YAWAMT */
+
+.yawamt-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  .yawamt {
+    flex: 1;
+    width: 150px;
+    text-align: center;
+    margin: 1rem;
+    
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
+
 
 @media print, screen and (max-width: 960px) {
 
