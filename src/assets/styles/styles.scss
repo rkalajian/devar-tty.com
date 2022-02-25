@@ -433,14 +433,17 @@ footer {
 
 .marvel {
   background-image: url("/assets/images/fortnite/marvel.png");
+  background-size: contain; 
 }
 
 .gaminglegends {
   background-image: url("/assets/images/fortnite/Gaming_Legends_Series_-_Rarity_-_Fortnite.png");
+  background-size: contain; 
 }
 
 .bundle {
-  background-image: url("/assets/images/fortnite/bundle.jpg"); 
+  background-image: url("/assets/images/fortnite/bundle.jpg");
+  background-size: contain; 
 }
 
 /* YAWAMT */
