@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: Atari VCS Review - More Than Meets the Eye
-description: The best of the best in FLO
+description: The Atari VCS hit the console scene for the mass market in mid-2021, boasting powerful hardware and an e-shop filled with retro Atari games and a handful of modern titles. Unfortunately, it was not entirely clear at first who the primary audience of the console was, and while it has gotten a bit clearer, the system is still surprisingly deceptive.
 date: 2022-02-27
 tags:
 - review
