@@ -26,11 +26,11 @@ Thankfully, the system has way more to offer.
 The Atari VCS boasts impressive hardware under the hood, unlike many other micro consoles that perform as expected and come at a lower price. The VCS has the following hardware specs:
 
 * 14nm AMD R1606G Zen processor with 2 cores and 4 threads
-* 2.6 GHz (400 model)
-* 3.5 GHz (600 model)
+  * 2.6 GHz (400 model)
+  * 3.5 GHz (600 model)
 * Upgradeable Memory
-* 8 GB DDR4 (800 model)
-* 4 GB DDR4 (400 model)
+  * 8 GB DDR4 (800 model)
+  * 4 GB DDR4 (400 model)
 * Radeon Vega 3 APU architecture with up to 4GB of memory
 * 32GB Internal Flash Memory
 * An internal M2 slot for an SSH hard drive
