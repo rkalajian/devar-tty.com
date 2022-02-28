@@ -8,20 +8,21 @@
       {{ title }}
     </title>
     <script src="/assets/scripts/main.js"></script> 
-   <script src="/assets/scripts/scalefix.js"></script> 
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-        <!--[if lt IE 9]>
-        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-          <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-23GBCS355Z"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    <script src="/assets/scripts/scalefix.js"></script> 
+          <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+          <!--[if lt IE 9]>
+          <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+          <![endif]-->
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-23GBCS355Z"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-      gtag('config', 'G-23GBCS355Z');
-    </script>
+        gtag('config', 'G-23GBCS355Z');
+      </script>
+      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -54,5 +55,16 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
   </body>
 </html>
