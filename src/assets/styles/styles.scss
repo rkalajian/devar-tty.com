@@ -370,7 +370,9 @@ section {
 /* Posts */
 #postwrapper {
   #posts {
-
+    img { 
+      width: 100% ; 
+    }
     li {
       margin-bottom: .5rem;
       .post-title {
