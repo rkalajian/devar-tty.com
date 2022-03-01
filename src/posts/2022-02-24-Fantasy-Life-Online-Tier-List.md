@@ -3,7 +3,7 @@ layout: post.njk
 title: Fantasy Life Online Tier List
 description: The best of the best in FLO
 date: 2022-03-01T13:44:00.660Z
-featuredImage: /images/uploads/fantasylifetier.jpg
+featuredImage: assets/images/uploads/fantasylifetier.jpg
 tags: fantasy-life-online
 ---
 Fantasy Life Online has been out for a few months now, with several new 5-Star characters joining the roster at an accelerated rate compared to the Japanese run of the game. The following tier lists only look at 5-Star characters and weapons, as there is really no need to compare any that are 4-Star or lower.
