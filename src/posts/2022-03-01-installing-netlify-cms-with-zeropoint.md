@@ -23,68 +23,39 @@ With that out of the way, create an **admin** folder under the **src** folder an
 
 **config.yml contents:**
 
-`backend:`
-
-`name: git-gateway`
-
-`branch: master # Branch to update (optional; defaults to master)`
-
-`media_folder: "src/assets/images/uploads"`
-
-``public_folder: "assets/images/uploads"` ``
-
-`collections:`
-
-`- name: "post" # Used in routes, e.g., /admin/collections/blog`
-
-`label: "Post" # Used in the UI`
-
-`folder: "src/posts" # The path to the folder where the documents are stored`
-
-`create: true # Allow users to create new documents in this collection`
-
-`slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md`
-
-`fields: # The fields for each document, usually in front matter`
-
-`- {label: "Layout", name: "layout", widget: "hidden", default: "post"}`
-
-`- {label: "Title", name: "title", widget: "string"}`
-
-`- {label: "Publish Date", name: "date", widget: "datetime"}`
-
-`- {label: "Featured Image", name: "featuredImage", widget: "image"}`
-
-`- {label: "Tags", name: "tags", widget: "list"}`
-
+`backend:`\
+    `name: git-gateway`\
+    `branch: master # Branch to update (optional; defaults to master)`\
+``\
+`media_folder: "src/assets/images/uploads"`\
+`public_folder: "assets/images/uploads"` `\``\
+`collections:`\
+`- name: "post" # Used in routes, e.g., /admin/collections/blog`\
+`label: "Post" # Used in the UI`\
+`folder: "src/posts" # The path to the folder where the documents are stored`\
+`create: true # Allow users to create new documents in this collection`\
+`slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md`\
+`fields: # The fields for each document, usually in front matter`\
+`- {label: "Layout", name: "layout", widget: "hidden", default: "post"}`\
+`- {label: "Title", name: "title", widget: "string"}`\
+`- {label: "Publish Date", name: "date", widget: "datetime"}`\
+`- {label: "Featured Image", name: "featuredImage", widget: "image"}- {label: "Tags", name: "tags", widget: "list"}`\
 `- {label: "Body", name: "body", widget: "markdown"}`
 
 **index.html contents:**
 
-`<!doctype html>`
-
-`<html>`
-
-`<head>`
-
-`<meta charset="utf-8" />`
-
-`<meta name="viewport" content="width=device-width, initial-scale=1.0" />`
-
-`<title>Devar-TTY Content Manager</title>`
-
-`<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>`
-
-`</head>`
-
-`<body>`
-
-`<!-- Include the script that builds the page and powers Netlify CMS -->`
-
-`<script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>`
-
-`</body>`
-
+`<!doctype html>`\
+`<html>`\
+`<head>`\
+`<meta charset="utf-8" />`\
+`<meta name="viewport" content="width=device-width, initial-scale=1.0" />`\
+`<title>Devar-TTY Content Manager</title>`\
+`<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>`\
+`</head>`\
+`<body>`\
+`<!-- Include the script that builds the page and powers Netlify CMS -->`\
+`<script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>`\
+`</body>`\
 `</html>`
 
 The config.yml file is where you'll set the paths for both the source and public image locations for your site. After that you'll be setting up the [collections](https://www.netlifycms.org/docs/collection-types/) for the CMS to display. In my example above you can see that I've got fields for the post layout, the title, the publish date, a featured image, tags, and, of course, the post body.
@@ -95,26 +66,16 @@ Once these files are all set, the final step is to add the following to **/src/a
 
 As well as the following before the </body> tag:
 
-`<script>`
-
-`if (window.netlifyIdentity) {`
-
-`window.netlifyIdentity.on("init", user => {`
-
-`if (!user) {`
-
-`window.netlifyIdentity.on("login", () => {`
-
-`document.location.href = "/admin/";`
-
-`});`
-
-`}`
-
-`});`
-
-`}`
-
+`<script>`\
+`if (window.netlifyIdentity) {`\
+   `window.netlifyIdentity.on("init", user => {`\
+      `if (!user) {`\
+         `window.netlifyIdentity.on("login", () => {`\
+            `document.location.href = "/admin/";`\
+         `});`\
+      `}`\
+   `});`\
+`}`\
 `</script>`
 
 All that's left at this point is to build your site and hit /admin on your production URL!
