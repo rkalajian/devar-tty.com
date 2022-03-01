@@ -13,9 +13,9 @@ I finally got around to adding [Netlfiy CMS](https://www.netlifycms.org/) to the
 
 Now, setting up Netlfiy CMS with [ZeroPoint](https://github.com/MWDelaney/ZeroPoint) is a tad different than doing so with a straight [11ty](https://www.11ty.dev/) install, so let me document the process here for those looking to do the same.
 
-Before doing anything, Netlify users must make sure to [enable Identity](https://app.netlify.com/sites/lucid-nobel-dab1f7/settings/identity), adding GitHub as an external authentican service and enabling Git Gateway.
+Before doing anything, Netlify users must make sure to [enable Identity](https://app.netlify.com/sites/lucid-nobel-dab1f7/settings/identity), adding GitHub as an external authentication service and enabling Git Gateway.
 
-With that taken care of, open your **.eleventy.js** file in the root of your Zeropoint install, scroll to the bottom, and modify your *templateFormats* to incluse both html and yml files.
+With that taken care of, open your **.eleventy.js** file in the root of your Zeropoint install, scroll to the bottom, and modify your *templateFormats* to include both html and yml files.
 
 <pre class="code-block">
 `templateFormats: ['njk', 'md', '11ty.js', 'yml', 'html'],`
