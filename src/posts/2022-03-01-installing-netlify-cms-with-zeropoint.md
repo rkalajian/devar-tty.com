@@ -24,11 +24,10 @@ With that out of the way, create an **admin** folder under the **src** folder an
 **config.yml contents:**
 
 `backend:`\
-    `name: git-gateway`\
-    `branch: master # Branch to update (optional; defaults to master)`\
-``\
+`name: git-gateway`\
+`branch: master # Branch to update (optional; defaults to master)`\
 `media_folder: "src/assets/images/uploads"`\
-`public_folder: "assets/images/uploads"` `\``\
+`public_folder: "assets/images/uploads"`\
 `collections:`\
 `- name: "post" # Used in routes, e.g., /admin/collections/blog`\
 `label: "Post" # Used in the UI`\
