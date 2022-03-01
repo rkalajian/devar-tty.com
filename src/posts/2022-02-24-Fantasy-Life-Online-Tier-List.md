@@ -10,7 +10,7 @@ Fantasy Life Online has been out for a few months now, with several new 5-Star c
 
 ## Fantasy Life Online Character Tier List
 
-***Updated February 22, 2022:*** 
+***Updated March 1, 2022:*** 
 
 * ***Added Daemon to S-Tier***
 * ***Moved Aqua to from B-Tier to A-Tier***
@@ -26,12 +26,12 @@ Fantasy Life Online has been out for a few months now, with several new 5-Star c
 
 ## Fantasy Life Online Weapon Tier List
 
-***Updated February 24, 2022: Added Floral Needle to B-Tier***
+***Updated March 1, 2022: Added Chaos Legion to S-Tier***
 
 | Tier | Name                                                                                                                                                            |
 | ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | S+   | Wolf Greatsword, Crystal Snow, Crimson Lucio, Dragon King Claymore, Verdant Blade, Blue Knights                                                                 |
-| S    | Falcon Wings, Sage Staff, Elegant Rose, Windcalling Staff, Mermaid Princess, Icewind Cocytus                                                                    |
+| S    | Falcon Wings, Sage Staff, Elegant Rose, Windcalling Staff, Mermaid Princess, Icewind Cocytus, Chaos Legion                                                      |
 | A    | Blue Devil Hammer, Ocean Hammer, Moonlight, Summer Prism                                                                                                        |
 | B    | War Carpenter's Saw, Royal Needle, Ocean Needle, Coral Saw, Coastal Hibiscus, Floral Needle, Sweet Dream Needle, Sweet Apple, Sweet Dream Saw, Venus Frying Pan |
 | C    | Earthlord's Pickaxe, Firelord's Pickaxe, Flower Row, Plumage Rod, Bear Grinder, Snow Blossom Axe                                                                |
