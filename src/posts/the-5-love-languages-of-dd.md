@@ -4,7 +4,7 @@ title: The 5 Love Languages of D&D
 description: With Valentine’s Day right around the corner you may be thinking of that special someone in your D&D campaign. It’s important to know what their love language is, and how to shower them with your affections on this holiday of romance.
 date: 2021-12-31
 tags: ttrpg
-featuredImage: /assets/images/the-5-love-languages-of-dd/lovednd.png
+featuredImage: assets/images/the-5-love-languages-of-dd/lovednd.png
 ---
 
 With Valentine’s Day right around the corner you may be thinking of that special someone in your D&D campaign. It’s important to know what their love language is, and how to shower them with your affections on this holiday of romance.

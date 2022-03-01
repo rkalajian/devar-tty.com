@@ -8,6 +8,8 @@ layout: base.njk
                             <a class="tag" href="/tags/{{ tag }}">{{tag}}</a>
                         {% endif %}
                     {% endfor %}</strong> on <em>{{ date | dateReadable }}</em>
-    {% if featuredImage %}<img src="/{{ featuredImage | url }}" alt="{{ featuredImage }}"></img> {% endif %}
+    {% if featuredImage %}
+        <img src="/{{ featuredImage | url }}" alt="{{ featuredImage }}"></img>
+    {% endif %}
     <p>{{ content | safe }}</p>
 </div>

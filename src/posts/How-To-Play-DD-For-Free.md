@@ -4,7 +4,7 @@ title: How to Play D&D for Free
 description: Dungeons and Dragons is a game where you can spend as much, or as little, as you like on. There are plenty of books, accessories, dice, and more to purchase ’till your heart’s content…but what if you don’t want to spend anything?
 date: 2021-11-26
 tags: ttrpg
-featuredImage: /assets/images/how-to-play-dd-for-free/dd-header.jpg
+featuredImage: assets/images/how-to-play-dd-for-free/dd-header.jpg
 ---
 Dungeons and Dragons is a game where you can spend as much, or as little, as you like on. There are plenty of books, accessories, dice, and more to purchase ’till your heart’s content…but what if you don’t want to spend *anything*?
 
