@@ -16,14 +16,13 @@ Now, setting up Netlfiy CMS with [ZeroPoint](https://github.com/MWDelaney/ZeroPo
 Before doing anything, Netlify users must make sure to [enable Identity](https://app.netlify.com/sites/lucid-nobel-dab1f7/settings/identity), adding GitHub as an external authentican service and enabling Git Gateway.
 
 With that taken care of, open your **.eleventy.js** file in the root of your Zeropoint install, scroll to the bottom, and modify your *templateFormats* to incluse both html and yml files.
-<pre <pre data-lang='js' class='prettyprint'>>
+<pre data-lang='js' class='prettyprint'>
 templateFormats: ['njk', 'md', '11ty.js', 'yml', 'html'],
 </pre>
 With that out of the way, create an **admin** folder under the **src** folder and create two files: **config.yml** and **index.html**.
 
 **config.yml contents:**
-
-<pre <pre data-lang='yaml' class='prettyprint'>>
+<pre data-lang='yaml' class='prettyprint'>
 backend:
    name: git-gateway
    branch: master # Branch to update (optional; defaults to master)
@@ -44,8 +43,7 @@ fields: # The fields for each document, usually in front matter
 </pre>
 
 **index.html contents:**
-
-<pre <pre data-lang='html' class='prettyprint'>>
+<pre data-lang='html' class='prettyprint'>
 &lt;!doctype html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -63,12 +61,13 @@ fields: # The fields for each document, usually in front matter
 The config.yml file is where you'll set the paths for both the source and public image locations for your site. After that you'll be setting up the [collections](https://www.netlifycms.org/docs/collection-types/) for the CMS to display. In my example above you can see that I've got fields for the post layout, the title, the publish date, a featured image, tags, and, of course, the post body.
 
 Once these files are all set, the final step is to add the following to **/src/assets/views/layouts/base.njk**, just before the end of the *&lt;/head&gt;* tag:
-<pre <pre data-lang='html' class='prettyprint'>>
+<pre data-lang='html' class='prettyprint'>
 &lt;script src="https://identity.netlify.com/v1/netlify-identity-widget.js"&gt; .  &lt;/script&gt;
 </pre>
 
 As well as the following before the &lt;/body&gt; tag:
-<pre <pre data-lang='html' class='prettyprint'>>
+
+<pre data-lang='html' class='prettyprint'>
 &lt;script&gt;
 if (window.netlifyIdentity) {
    window.netlifyIdentity.on("init", user =&gt; {
