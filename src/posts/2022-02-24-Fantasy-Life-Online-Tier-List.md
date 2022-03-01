@@ -10,7 +10,11 @@ Fantasy Life Online has been out for a few months now, with several new 5-Star c
 
 ## Fantasy Life Online Character Tier List
 
-***Updated February 22, 2022: Added Olianna to A-Tier***
+***Updated February 22, 2022:*** 
+
+* ***Added Daemon to S-Tier***
+* ***Moved Aqua to from B-Tier to A-Tier***
+* ***Moved Kiba from C-Tier to B-Tier***
 
 | Tier | Characters                                              |
 | ---- | ------------------------------------------------------- |
