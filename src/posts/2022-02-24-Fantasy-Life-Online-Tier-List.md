@@ -3,14 +3,18 @@ layout: post.njk
 title: Fantasy Life Online Tier List
 description: The best of the best in FLO
 date: 2022-03-01T13:44:00.660Z
-featuredImage: /images/uploads/fantasylifetier.jpg
+featuredImage: assets/images/uploads/fantasylifetier.jpg
 tags: fantasy-life-online
 ---
 Fantasy Life Online has been out for a few months now, with several new 5-Star characters joining the roster at an accelerated rate compared to the Japanese run of the game. The following tier lists only look at 5-Star characters and weapons, as there is really no need to compare any that are 4-Star or lower.
 
 ## Fantasy Life Online Character Tier List
 
-***Updated February 22, 2022: Added Olianna to A-Tier***
+***Updated February 22, 2022:*** 
+
+* ***Added Daemon to S-Tier***
+* ***Moved Aqua to from B-Tier to A-Tier***
+* ***Moved Kiba from C-Tier to B-Tier***
 
 | Tier | Characters                                              |
 | ---- | ------------------------------------------------------- |
