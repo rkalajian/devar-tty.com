@@ -3,6 +3,10 @@
 */
 @import "rogue";
 @import url('https://fonts.googleapis.com/css?family=Arvo:400,700,400italic');
+@import "https://cdn.rawgit.com/google/code-prettify/master/styles/desert.css";
+$lightGray: #fafafa;
+$medBlue: #9baecf;
+$char: #292929;
 
 /* MeyerWeb Reset */
 
@@ -170,20 +174,31 @@ p img {
 
 /* Code blocks */
 
-code, pre {
-	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color:#000;
-  font-size:14px;
-}
-
+code,
+.code,
 pre {
-	padding: 4px 12px;
-  background: #FDFEFB;
-  border-radius:4px;
-  border:1px solid #D7D8C8;
-  overflow: auto;
-  overflow-y: hidden;
-	margin-bottom: 32px;
+  font-family: 'Source Code Pro';
+  background: $char;
+  color: $lightGray;
+  font-size: 16px;
+  padding: 0;
+  padding: 10px;
+  &:before {
+    display: block;
+    width: calc(100%);
+    margin-left: -3px;
+    margin-top: -3px;
+    padding: 3px;
+    text-transform: uppercase;
+    content: attr(data-lang);
+    background: $medBlue;
+  }
+  .o {
+    color: orange;
+  }
+  .w {
+    color: white;
+  }
 }
 
 
