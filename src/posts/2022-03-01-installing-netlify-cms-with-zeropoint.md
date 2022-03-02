@@ -65,7 +65,7 @@ Once these files are all set, the final step is to add the following to **/src/a
 &lt;script src="https://identity.netlify.com/v1/netlify-identity-widget.js"&gt; .  &lt;/script&gt;
 </pre>
 
-As well as the following before the &lt;/body&gt; tag:
+As well as the following before the *&lt;/body&gt;* tag:
 
 <pre data-lang='html' class='prettyprint'>
 &lt;script&gt;
