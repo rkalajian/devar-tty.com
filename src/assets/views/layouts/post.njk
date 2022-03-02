@@ -11,5 +11,37 @@ layout: base.njk
     {% if featuredImage %}
         <img src="/{{ featuredImage | url }}" alt="{{ featuredImage }}"></img>
     {% endif %}
+    {% if rating %}
+        <script type="application/ld+json">
+        {
+        "@context": "https://schema.org/",
+        "@type": "Review",
+        "itemReviewed": {
+            "@type": "Product"
+            }
+        },
+        "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "{{ rating }}"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "Rob Kalajian"
+        },
+        "publisher": {
+            "@type": "Individual",
+            "name": "Devar-TTY"
+        }
+        }
+        </script>
+        <strong>Rating:</strong>
+        {% for i in range(0, rating) %}
+            <i class="fa-solid fa-star"></i>
+        {% endfor %}
+        {% for i in range(rating, 5) %}
+            <i class="fa-regular fa-star"></i>
+        {% endfor %}
+    {% endif %}
     <p>{{ content | safe }}</p>
+
 </div>
