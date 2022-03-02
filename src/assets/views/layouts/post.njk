@@ -14,26 +14,21 @@ layout: base.njk
     {% if rating %}
         <script type="application/ld+json">
         {
-        "@context": "https://schema.org/",
-        "@type": "Review",
-        "itemReviewed": {
-            "@type": "Product"
-            "name": {{ itemName }},
-            "author": Rob Kalajian
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "name": "{{ itemName }}",
+            "review": {
+                "@type": "Review",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "{{ rating }}",
+                    "bestRating": "5"
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Rob Kalajian"
+                }
             }
-        },
-        "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "{{ rating }}"
-        },
-        "author": {
-            "@type": "Person",
-            "name": "Rob Kalajian"
-        },
-        "publisher": {
-            "@type": "Individual",
-            "name": "Devar-TTY"
-        }
         }
         </script>
         <strong>Rating:</strong>
