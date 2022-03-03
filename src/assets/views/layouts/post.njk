@@ -37,7 +37,7 @@ layout: base.njk
         {% for i in range(0, rating) %}
             <i class="fa-solid fa-star"></i>
         {% endfor %}
-        {% for i in range(rating, 5) %}
+        {% for i in range(0, (5-rating)) %}
             <i class="fa-regular fa-star"></i>
         {% endfor %}
     {% endif %}
