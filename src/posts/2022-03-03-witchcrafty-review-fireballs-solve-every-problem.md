@@ -15,13 +15,13 @@ PigeonDev's indie Metroidvania, [Witchcrafty](https://store.steampowered.com/app
 
 ## Little Girl, Big Hat
 
-![Witchcrafty broom ride](assets/images/uploads/sc6yll.jpg)
+![Witchcrafty broom ride](/assets/images/uploads/sc6yll.jpg)
 
 Witchcrafty puts players in control of a little witch who is tasked with find the source of, and stopping, corruption spreading through the land. Along the way she meets wonderfully interesting characters, such as sentient mushrooms, talking cats, broom saleswomen, and grumpy dwarves. As players progress through the game they will learn new spells and abilities to help the little witch explore the map and complete her goal.
 
 ## Pixel Perfect
 
-![Witchcrafty Story Book](assets/images/uploads/sc6ylo.jpg)
+![Witchcrafty Story Book](/assets/images/uploads/sc6ylo.jpg)
 
 With stunning 16-bit pixel art, Witchcrafty almost feels like platformers from the days of the SNES and Genesis. The soundtrack compliments the visual style of the game, adding to the overall experience of the title. Small details on the map along with detailed character animations really bring the world of Witchcrafty alive.
 
@@ -29,7 +29,7 @@ The only exception to this is the game's title screen, which is nightmare fuel. 
 
 ## Cracks in the Veneer
 
-![Witchcrafty Home](assets/images/uploads/sc6ylm.jpg)
+![Witchcrafty Home](/assets/images/uploads/sc6ylm.jpg)
 
 While entertaining, there are certainly a few flaws with Witchcrafty, the major ones being bugs that can cripple the game and the dialoge that is filled with errors and oddities. At times the little witch seems to glitch out a bit, getting stuck in animation or, on rare occassions, completely freezing or dissapearing. While at times charming, there are certain points in the game's dialog that players out of the experience with poor grammar, spelling errors, or complete nonsense.
 
