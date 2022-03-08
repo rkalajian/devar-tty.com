@@ -2,7 +2,7 @@
 layout: post.njk
 title: Fantasy Life Online Tier List
 date: 2022-03-08T13:47:12.046Z
-featuredImage: /assets/images/uploads/fantasylifetier.jpg
+featuredImage: assets/images/uploads/fantasylifetier.jpg
 description: The best of the best in FLO
 tags: fantasy-life-online
 ---
