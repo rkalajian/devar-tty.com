@@ -1,0 +1,23 @@
+<div id="insightwrapper">
+    <h1>Insights</h1>
+
+        {% for insight in insights | reverse %}
+
+                <h4>{{ insight.pubDate | dateTimeReadable }}</h4>
+                {% if insight.enclosure %}
+                    <img src="{{insight.enclosure.url}}" width="300"/>
+                {% endif %}
+                {{insight.content | safe}}
+                <hr/>
+        {% endfor %}
+
+    {% if pagination.href.previous %}
+        <a href="{{pagination.href.previous}}"><< Previous Page</a>
+    {% endif %}
+    {% if pagination.href.previous and pagination.href.next %}
+    &nbsp;&mdash;&nbsp;
+    {% endif %}
+    {% if pagination.href.next %}
+        <a href="{{pagination.href.next}}">Next Page >></a>
+    {% endif %}
+</div>

@@ -129,7 +129,18 @@ module.exports = function (eleventyConfig) {
    eleventyConfig.addFilter('dateReadable', date => {
     return moment(date).utc().format('LL'); // E.g. May 31, 2019
   });
-  
+  eleventyConfig.addFilter('dateTimeReadable', date => {
+    return moment(date).utc().format(' MMMM Do YYYY, h:mm:ss a'); // E.g. May 31, 2019
+  });
+
+ 
+
+  // `require` the package at the top of the file with all the others
+  const embedYouTube = require("eleventy-plugin-youtube-embed");
+
+  module.exports = function(eleventyConfig) {
+    eleventyConfig.addPlugin(embedYouTube);
+  };
   /**
    * Return the config to Eleventy
    */

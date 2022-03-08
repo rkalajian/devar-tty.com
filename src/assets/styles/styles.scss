@@ -334,6 +334,10 @@ a.Posts {
 	background: url(../images/blog-small.png) no-repeat 1px;
 }
 
+a.Insights {
+	background: url(../images/insight-small.png) no-repeat 1px;
+}
+
 a.Discord {
 	background: url(../images/discord-small.png) no-repeat 1px;
 }
@@ -407,6 +411,12 @@ section {
 #post {
   img {
     width: 100%;
+  }
+}
+
+#insightwrapper {
+  img {
+    margin: 0;
   }
 }
 

@@ -26,14 +26,17 @@
     "autoprefixer": "^10.3.1",
     "babel-loader": "^8.2.2",
     "cross-env": "^7.0.3",
+    "eleventy-plugin-youtube-embed": "^1.6.6",
+    "fast-xml-parser": "^4.0.4",
     "fortnite-api-com": "^2.2.1",
     "markdown-it": "^12.3.2",
     "memfs": "^3.2.0",
     "moment": "^2.29.1",
     "netlify-cms-app": "^2.15.67",
-    "node-fetch": "^3.2.0",
+    "node-fetch": "^3.2.1",
     "notion-to-md": "^2.3.1",
     "npm-run-all": "^4.1.5",
+    "rss-parser": "^3.12.0",
     "sass": "^1.42.1",
     "webpack": "^5.28.0"
   },
@@ -41,7 +44,9 @@
     "last 2 versions"
   ],
   "devDependencies": {
+    "@11ty/eleventy-cache-assets": "^2.3.0",
     "@11ty/eleventy-img": "^0.10.0",
+    "dotenv": "^16.0.0",
     "eleventy-plugin-metagen": "^1.4.8",
     "eleventy-plugin-svg-contents": "^0.7.0",
     "stylelint": "^14.0.1",
