@@ -124,14 +124,16 @@ module.exports = function (eleventyConfig) {
   /** 
    * Pretty dates 
    */
-   eleventyConfig.addFilter('dateIso', date => {
+  const moment = require('moment-timezone')
+  const timeInEST = moment().tz('America/New_York').format('MM/DD/YYYY HH:mm')
+  eleventyConfig.addFilter('dateIso', date => {
     return moment(date).toISOString();
   });
-   eleventyConfig.addFilter('dateReadable', date => {
-    return moment(date).utc().format('LL'); // E.g. May 31, 2019
+  eleventyConfig.addFilter('dateReadable', date => {
+    return moment().tz('America/New_York').format('LL')
   });
   eleventyConfig.addFilter('dateTimeReadable', date => {
-    return moment(date).utc().format(' MMMM Do YYYY, h:mm:ss a'); // E.g. May 31, 2019
+    return moment().tz('America/New_York').format(' MMMM Do YYYY, h:mm:ss a')
   });
 
   /*** Embed Everything ***/
