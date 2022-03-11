@@ -130,7 +130,7 @@ module.exports = function (eleventyConfig) {
     return moment(date).toISOString();
   });
   eleventyConfig.addFilter('dateReadable', date => {
-    return moment(date).utc()..tz('America/New_York').format('LL')
+    return moment(date).utc().tz('America/New_York').format('LL')
   });
   eleventyConfig.addFilter('dateTimeReadable', date => {
     return moment(date).utc().tz('America/New_York').format(' MMMM Do YYYY, h:mm:ss a')
