@@ -135,7 +135,7 @@ module.exports = function (eleventyConfig) {
   });
 
   /*** Embed Everything ***/
-  eleventyConfig.addPlugin(embeds);
+  eleventyConfig.addPlugin(embeds, {lite: true});
   
   /**
    * Return the config to Eleventy
