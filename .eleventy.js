@@ -7,6 +7,7 @@ const shortcodes = require('./src/config/shortcodes');
 const templateLanguages = require('./src/config/templateLanguages');
 const moment = require('moment');
 const fs = require("fs");
+const embeds = require("eleventy-plugin-embed-everything");
 
 /**
  * Eleventy configuration
@@ -133,14 +134,9 @@ module.exports = function (eleventyConfig) {
     return moment(date).utc().format(' MMMM Do YYYY, h:mm:ss a'); // E.g. May 31, 2019
   });
 
- 
-
-  // `require` the package at the top of the file with all the others
-  const embedYouTube = require("eleventy-plugin-youtube-embed");
-
-  module.exports = function(eleventyConfig) {
-    eleventyConfig.addPlugin(embedYouTube);
-  };
+  /*** Embed Everything ***/
+  eleventyConfig.addPlugin(embeds);
+  
   /**
    * Return the config to Eleventy
    */
