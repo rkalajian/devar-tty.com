@@ -14,7 +14,7 @@ Minimal Dungeon RPG is exactly what it sounds like on the surface, an RPG devoid
 
 ## Clickity Clack
 
-![Minimal Dungeon RPG Review - Dungeon](assets/images/uploads/screenshot-2022-03-19-170408.jpg "Minimal Dungeon RPG Review - Dungeon")
+![Minimal Dungeon RPG Review - Dungeon](/assets/images/uploads/screenshot-2022-03-19-170408.jpg "Minimal Dungeon RPG Review - Dungeon")
 
 Expect to click *a lot* in Minimal Dungeon RPG. Players with Carpal Tunnel or other RSIs of the hand/arms are probably best avoiding it. Instead of walking around a world map, interacting with NPCs and fighting monsters in beautifually animated sequences, the game abracts dungeons and towns into squares that are interacted with by clicking on them.
 
@@ -22,7 +22,7 @@ Exploration, Wood, Stone, Fishing, and other exploration-based tiles must be cli
 
 ## Get Buff
 
-![Minimal Dungeon RPG Review - Shard Shop](assets/images/uploads/screenshot-2022-03-19-170348.jpg "Minimal Dungeon RPG Review - Shard Shop")
+![Minimal Dungeon RPG Review - Shard Shop](/assets/images/uploads/screenshot-2022-03-19-170348.jpg "Minimal Dungeon RPG Review - Shard Shop")
 
 As players progress through Minimal Dungeon RPG, they will gain levels to boost their stats as they choose. Different equipment is used to boots stats further. There are many swords, armor, boots, and rings, each with a different rarity and level requirement, that can provide a powerful stat boost, or other buffs. Fruit can also be found/grown and offered up at different altars found throughout the game for even more stat boosts.
 
