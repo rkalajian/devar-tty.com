@@ -18,6 +18,6 @@ collections:
       - {label: "Featured Image", name: "featuredImage", widget: "image"}
       - {description: "Description", name: "description", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Item Name", name: "itemName", widget: "string", optional: true}
-      - {label: "Rating", name: "rating", widget: "string", optional: true}
+      - {label: "Item Name", name: "itemName", widget: "string", required: false}
+      - {label: "Rating", name: "rating", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
