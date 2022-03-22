@@ -1,23 +1,25 @@
 ---
 layout: post.njk
 title: Fantasy Life Online Tier List
-date: 2022-03-08T13:47:12.046Z
+date: 2022-03-22T13:17:55.606Z
 featuredImage: assets/images/uploads/fantasylifetier.jpg
 description: The best of the best in FLO
 tags: fantasy-life-online
+itemName: " "
+rating: " "
 ---
 Fantasy Life Online has been out for a few months now, with several new 5-Star characters joining the roster at an accelerated rate compared to the Japanese run of the game. The following tier lists only look at 5-Star characters and weapons, as there is really no need to compare any that are 4-Star or lower.
 
 ## Fantasy Life Online Character Tier List
 
-***Updated March 8, 2022 - Added Tsukiha to A-Tier***
+***Updated March 22, 2022 - Added Leilah to B-Tier***
 
 | Tier | Characters                                              |
 | ---- | ------------------------------------------------------- |
 | S+   | Hawke, Haku, Lucio                                      |
 | S    | Olivia, Amane, Slone, Teruha, Jake, Laura, Luby, Daemon |
 | A    | Bray, Grantz, Glen, Snow, Olianna, Aqua, Tsukiha        |
-| B    | Belhart, Kennedy, Klaus, Kiba                           |
+| B    | Belhart, Kennedy, Klaus, Kiba, Leilah                          |
 | C    | Josette, Sophie, Cliff, Kirkner, Demiel, Amane          |
 
 ## Fantasy Life Online Weapon Tier List
