@@ -10,7 +10,7 @@ permalink: /othello-exault-sin/
 <br/>
 otHELLo: EXAULT/SIN is a narrative, sci-fi, horror RPG where players take the roles of EXAULTED in a space station infected with an unknown entity called SIN. This is the first game using the SIN System I've been developing.
 
-The following rules are presented in an unfinished state for open beta testing. I hope you enjoy the game, and I look foward to your feedback. I've set up a section on the [You Are Welcome At My Table Discord](https://discord.gg/PRjtw9B) for people to post their experiences so I may tweak the game before its final release.
+The following rules are presented in an unfinished state for open beta testing. I hope you enjoy the game, and I look foward to your feedback. Feedback can be sent to rkalajian [at] gmail.com.
 
 [otHELLo: EXAULT/SIN Open Beta Rules](/assets/pdf/OTHELLO-EXUALT-SIN-BETA-11052021.pdf)
 
