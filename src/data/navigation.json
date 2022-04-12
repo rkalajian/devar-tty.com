@@ -1,6 +1,11 @@
 {
   "items": [
     {
+      "text": "Home",
+      "url": "/",
+      "external": false
+    },
+    {
       "text": "Posts",
       "url": "/posts/page-0",
       "external": false
