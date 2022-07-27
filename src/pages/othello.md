@@ -12,8 +12,10 @@ otHELLo: EXAULT/SIN is a narrative, sci-fi, horror RPG where players take the ro
 
 The following rules are presented in an unfinished state for open beta testing. I hope you enjoy the game, and I look foward to your feedback. Feedback can be sent to rkalajian [at] gmail.com.
 
-[otHELLo: EXAULT/SIN Open Beta Rules](/assets/pdf/OTHELLO-EXUALT-SIN-BETA-07212022.pdf)
-*Updated: July 21, 2022*
+[otHELLo: EXAULT/SIN Open Beta Rules](/assets/pdf/OTHELLO-EXUALT-SIN-BETA-07272022.pdf)
+*Updated: July 27, 2022*
+
+The latest update fleshes out combat a bit, so this is the area that needs the most testing at the moment.
 
 This page will serve as the main hub for the beta test, and will contain all future updates over the course of the testing period.
 
