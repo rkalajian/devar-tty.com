@@ -10,12 +10,13 @@ permalink: /othello-exault-sin/
 <br/>
 otHELLo: EXAULT/SIN is a narrative, sci-fi, horror RPG where players take the roles of EXAULTED in a space station infected with an unknown entity called SIN. This is the first game using the SIN System I've been developing.
 
-The following rules are presented in an unfinished state for open beta testing. I hope you enjoy the game, and I look foward to your feedback. Feedback can be sent to rkalajian [at] gmail.com.
+The following rules are presented in an unfinished state for open beta testing. I hope you enjoy the game, and I look foward to your feedback. Feedback can be sent to rkalajian [at] gmail.com, or can be postd on the [RPGGeek Forums for otHELLO: EXAULT/SIN](https://rpggeek.com/forums/family/76483).
 
 [otHELLo: EXAULT/SIN Open Beta Rules](/assets/pdf/OTHELLO-EXUALT-SIN-BETA-07272022.pdf)
 *Updated: July 27, 2022*
 
-The latest update fleshes out combat a bit, so this is the area that needs the most testing at the moment.
+[otHELLo: EXAULT/SIN New Dehlikyo Sourcebook Beta](/assets/pdf/New-Dehlikyo-Sourcebook-BETA-07282022.pdf)
+*Updated: July 28, 2022*
 
 This page will serve as the main hub for the beta test, and will contain all future updates over the course of the testing period.
 
